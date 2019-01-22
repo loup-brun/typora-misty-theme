@@ -4,16 +4,20 @@
     --side-bar-bg-color: #f6f8fa;
 }
 
+::selection {
+    background-color: #afec9e;
+}
+
 html {
-    font-size: 16px;
+    font-size: 20px;
     -webkit-font-smoothing: subpixel-antialiased;
 }
 
 body {
-    font-family: "SF UI Text", "PingFang SC", -apple-system, -apple-system-body, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "微软雅黑", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: 'Charter ITC Std', 'Charter', "SF UI Text", "PingFang SC", -apple-system, -apple-system-body, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "微软雅黑", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     /*font-family: -apple-system, -apple-system-body, BlinkMacSystemFont, "PingFang SC", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";*/
     color: #24292e;
-    line-height: 1.5;
+    line-height: 1.32;
     font-weight: 300;
 }
 
@@ -44,6 +48,8 @@ h3,
 h4,
 h5,
 h6 {
+    font-family: 'ATC Harris', monospace;
+    font-weight: bold;
     position: relative;
     margin-top: 1.8rem;
     margin-bottom: 1rem;
@@ -91,16 +97,16 @@ h1 {
     padding-bottom: .3em;
     font-size: 2.25em;
     line-height: 1.2;
-    margin: 1em auto 1.2em auto;
+    margin: 1.5em auto 1.65em auto;
     font-weight: 300;
     /*border-bottom: 1px solid #eee;*/
 }
 h1:after{
 border-bottom: 2px dashed #afec9e;
     content: '';
-    width: 100px;
+    width: 120px;
     display: block;
-    margin: 0.2em auto 0 auto;
+    margin: .65em auto 0 auto;
     height: 2px;
 }
 /*h1+h2, h2+h3 {
@@ -112,7 +118,7 @@ h2 {
     line-height: 1.225;
     border-bottom: 1px solid #eee;*/
     font-size: 1.75em;
-    padding-left: 9px;
+    padding-left: 14px;
     line-height: 1.4;
     border-left: 6px solid #cce5ff;
 }
@@ -163,7 +169,7 @@ ul,
 ol,
 dl,
 table{
-    margin: 0.8em 0;
+    margin: 1em 0;
 }
 li>ol,
 li>ul {
@@ -441,7 +447,8 @@ header, .context-menu, .megamenu-content, footer{
 }
 
 strong, b {
-    font-weight: 400;
+    font-weight: bold;
+    background-color: #e1f7d9;
 }
 
 .file-list-item-summary {
