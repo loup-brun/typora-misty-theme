@@ -14,11 +14,11 @@ html {
 }
 
 body {
-    font-family: 'Charter ITC Std', 'Charter', "SF UI Text", "PingFang SC", -apple-system, -apple-system-body, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "微软雅黑", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: 'ATC Harris', 'Charter ITC Std', 'Charter', "SF UI Text", "PingFang SC", -apple-system, -apple-system-body, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "微软雅黑", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     /*font-family: -apple-system, -apple-system-body, BlinkMacSystemFont, "PingFang SC", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";*/
     color: #24292e;
     line-height: 1.32;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 #write{
@@ -49,11 +49,10 @@ h4,
 h5,
 h6 {
     font-family: 'ATC Harris', monospace;
-    font-weight: bold;
+    font-weight: 400;
     position: relative;
     margin-top: 1.8rem;
     margin-bottom: 1rem;
-    font-weight: 400;
     line-height: 1.4;
     cursor: text;
     color: #142331;
@@ -257,7 +256,7 @@ table tr:nth-child(2n) {
     background-color: #fafafa;
 }
 table tr th {
-    font-weight: 400;
+    font-weight: 600;
     border: 1px solid #e0e0e0;
     text-align: left;
     margin: 0;
@@ -437,17 +436,17 @@ header, .context-menu, .megamenu-content, footer{
 
 .pin-outline .outline-active,
 .pin-outline #outline-content .outline-active strong {
-    font-weight: 400;
+/*    font-weight: 400;*/
     color: rgb(35,35,35);
 }
 
 .outline-label {
-    font-weight: 300;
+/*    font-weight: 300;*/
     color: rgb(100,100,100);
 }
 
 strong, b {
-    font-weight: bold;
+    font-weight: 600;
     background-color: #e1f7d9;
 }
 
